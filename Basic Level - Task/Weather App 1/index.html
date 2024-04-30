@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/weather.webp">
+</head>
+
+<body>
+
+    <div class="dashboard">
+        <div class="choose-country">
+            <div class="form">
+                <label for="">enter city name</label>
+                <input type="text" placeholder="E.g Pune, Hyderabad ...">
+                <button type="submit">search</button>
+            </div>
+            <span>or</span>
+            <button class="current">current location</button>
+        </div>
+        <div class="how-is-it">
+            <div class="info">
+                <div class="city-searched">
+                    <h2><b class="name">_________</b> <b class="date">( _________ )</b></h2>
+                    <div class="details">
+                        <p class="temperature">temperature : <strong>__</strong>ºC.</p>
+                        <p class="wind">wind : <strong>__</strong> M/S.</p>
+                        <p class="humidity">humidity : <strong>__</strong> %.</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <span class="status">cloudly</span>
+                </div>
+            </div>
+            <div class="forecast">
+                <h1 class="title">5-day forecast</h1>
+                <div class="future">
+
+                    <div class="info">
+                        <div class="city-searched">
+                            <h2>
+                                <b data-i="1" class="date">( _________ )</b>
+                                <div class="view">
+                                    <div class="logo">
+                                        <img num="2" src="images/cloud-moon-solid.svg" alt="">
+                                    </div>
+                                </div>
+                            </h2>
+                            <div class="details">
+                                <p data-i="1" class="temperature">temp : <strong>__</strong>ºC.</p>
+                                <p data-i="1" class="wind">wind : <strong>__</strong>M/S.</p>
+                                <p data-i="1" class="humidity">humidity : <strong>__</strong>%.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="info">
+                        <div class="city-searched">
+                            <h2>
+                                <b data-i="2" class="date">( _________ )</b>
+                                <div class="view">
+                                    <div class="logo">
+                                        <img num="1" src="images/cloud-moon-solid.svg" alt="">
+                                    </div>
+                                </div>
+                            </h2>
+                            <div class="details" data-i="2">
+                                <p data-i="2" class="temperature">temp : <strong>__</strong>ºC.</p>
+                                <p data-i="2" class="wind">wind : <strong>__</strong>M/S.</p>
+                                <p data-i="2" class="humidity">humidity : <strong>__</strong>%.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="info">
+                        <div class="city-searched">
+                            <h2>
+                                <b data-i="3" class="date">( _________ )</b>
+                                <div class="view">
+                                    <div class="logo">
+                                        <img src="images/cloud-moon-solid.svg" alt="">
+                                    </div>
+                                </div>
+                            </h2>
+                            <div class="details">
+                                <p data-i="3" class="temperature">wind : <strong>__</strong>M/S.</p>
+                                <p data-i="3" class="wind">temp : <strong>__</strong>ºC.</p>
+                                <p data-i="3" class="humidity">humidity : <strong>__</strong>%.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="info">
+                        <div class="city-searched">
+                            <h2>
+                                <b data-i="4" class="date">( _________ )</b>
+                                <div class="view">
+                                    <div class="logo">
+                                        <img src="images/cloud-moon-solid.svg" alt="">
+                                    </div>
+                                </div>
+                            </h2>
+                            <div class="details">
+                                <p data-i="4" class="temperature">temp : <strong>__</strong>ºC.</p>
+                                <p data-i="4" class="wind">wind : <strong>__</strong>M/S.</p>
+                                <p data-i="4" class="humidity">humidity : <strong>__</strong>%.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="info">
+                        <div class="city-searched">
+                            <h2>
+                                <b data-i="5" class="date">( _________ )</b>
+                                <div class="view">
+                                    <div class="logo">
+                                        <img src="images/cloud-moon-solid.svg" alt="">
+                                    </div>
+                                </div>
+                            </h2>
+                            <div class="details">
+                                <p data-i="5" class="temperature">temp : <strong>__</strong>ºC.</p>
+                                <p data-i="5" class="wind">wind : <strong>__</strong>M/S.</p>
+                                <p data-i="5" class="humidity">humidity : <strong>__</strong>%.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
